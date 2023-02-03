@@ -61,7 +61,7 @@ namespace COMP003A.Assignment3
 
             
             //User input prompt for integer.
-            Console.Write("Enter the an Integer Day of the week (1-7) ");
+            Console.Write("Enter an Integer Day of the week (1-7) ");
             int numericDay = Convert.ToInt32(Console.ReadLine());//----------<<<|User input is converted to int type and stored in variable.
             Console.WriteLine($"You entered {numericDay}.");
 
